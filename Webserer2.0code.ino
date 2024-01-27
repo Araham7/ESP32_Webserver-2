@@ -87,7 +87,7 @@ void setup(void)
   Serial.println(WiFi.softAPIP());
 
 
-  if (MDNS.begin("Soniya")) { //Soniya.local/
+  if (MDNS.begin("Soniya")) { //esp.local/
     Serial.println("MDNS responder started");
   }
 
